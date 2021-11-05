@@ -2,7 +2,7 @@ import { Configuration, apply } from 'twind';
 
 import { theme } from './theme';
 
-export const config: Configuration = {
+const config: Configuration = {
   mode: 'silent',
   preflight: (preflight, { theme }) => ({
     ...preflight,
@@ -103,3 +103,5 @@ export const config: Configuration = {
     extend: theme
   }
 };
+
+export default config;

@@ -1,9 +1,9 @@
 import { sectionHeading, hoverScale } from '@styles/theme';
-import { config } from '@styles/twindConfig';
+import config from '@styles/twindConfig';
 import React, { Props } from 'react';
 import { tw } from 'twind';
 
-const Home = ({ partnersData, pageData, productsData, preview }: Props) => {
+const Home = () => {
   return (
     <>
       <section className={tw`text-gray-800`} id="mais">
